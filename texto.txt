@@ -1,0 +1,16 @@
+https://gist.github.com/cgonzalezdai/cc33db72a6fe5178637aabb562eae35c
+
+Como conectar express con un proyecto de react
+
+siempre que quieras hacer una peticion debes irte la puerto 3000
+
+1- nos vamos a la carpeta react:
+		
+y crearemos lo que tenemos en el App.tsx
+
+		que hace el useEffect(), si tu tienes que cargar datos de una bbdd, durante los dos primeros segundos no pintara nada, pero con el useeffect pintara
+		algo durante ese periodo de tiempo, cargara todo los divs y tal, y luego despues del useEffect lo volvera a cargar pero con los datos sacado de la bbdd
+		(funciona parecido al window.onload de js, para que cargue la pagina) y luego despues de la consulta saldra el json,
+		esto no bajara el ceo.
+		
+		cors: hay que habilitar cors que por seguridad te lo bloquea porque asi no entras desde otro dominio a otro
